@@ -8,3 +8,4 @@ class User:
 
     def signup(self):
         User.users.append(self)
+        return True

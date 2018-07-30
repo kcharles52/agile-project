@@ -1,6 +1,6 @@
 import sys
-# from .user import login,logout
-# from .comment import make_comment
+from .user import User
+from .comments import Comment
 
 print("Welcome to the comments app.")
 while True:
@@ -13,15 +13,15 @@ while True:
 
     result = input("Enter your choice: ")
 
-    if str(result).lower()=='l':
+    if str(result).lower() == 'l':
         pass
 
-    elif str(result).lower()=='s':
-        pass
+    elif str(result).lower() == 's':
+        name = input("Enter your name: ")
+        password = input("Enter your password: ")
 
-    elif str(result).lower()=='x':
+    elif str(result).lower() == 'x':
         sys.exit()
-
 
     else:
         print()
