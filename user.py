@@ -8,3 +8,11 @@ class User:
 
     def signup(self):
         User.users.append(self)
+
+    def login(self):
+        pass
+    
+    def logout(self):
+        pass
+
+
